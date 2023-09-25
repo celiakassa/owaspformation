@@ -1,0 +1,41 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    
+    /* background-image:url('../img/register.png'); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: url('../img/register.png'); /* Remplacez 'votre-image.jpg' par le chemin de votre image de fond */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Optionnel : fixer l'image de fond */
+      
+        /* Autres styles pour le corps de la page */
+        margin: 0; /* Supprimez les marges par défaut pour le corps */
+        padding: 0; /* Supprimez les marges internes par défaut pour le corps */
+        height: 100vh; /* Pour assurer que le corps occupe tout l'espace visible de la fenêtre du navigateur */
+        background-color: var(--dark-color);
+       
+    }
+   
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    .section-overlay {
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        width: 100%;
+        height: 100%;
+        opacity: 0.35;
+    }
